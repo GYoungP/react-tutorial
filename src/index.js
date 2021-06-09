@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import ContextSample from './ContextSample';
+import App from './App';
+import Hello from './Hello';
 // import Counter from './Counter'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Hello name='react' isSpercial/>
   </React.StrictMode>,
   document.getElementById('root')
 );
